@@ -32,7 +32,9 @@ int main(int argc, char **argv) {
             else
                 i++;
         }
-        if (flag) write(1, " ", 1);
+        if (flag) 
+            write(1, " ", 1);
+        
         write_word(argv[1], start, end);
     }
     write(1, "\n", 1);
